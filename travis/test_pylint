@@ -158,6 +158,7 @@ modules_cmd.extend([
 
 print("modules_cmd", modules_cmd)
 print("extra_params_cmd", extra_params_cmd)
+print("pylint_rcfile", pylint_rcfile)
 count_errors = 0
 if modules_cmd:
     count_errors = run_pylint.main([
